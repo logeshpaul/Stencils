@@ -1,0 +1,454 @@
+
+Installing Homebrew ...
+-:77: warning: Insecure world writable dir /usr/local/bin in PATH, mode 040777
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/Library/...
+/usr/local/share/man/man1/brew.1
+==> The following directories will be made group writable:
+/usr/local/.
+==> The following directories will have their group set to admin:
+/usr/local/.
+==> /usr/bin/sudo /bin/chmod g+rwx /usr/local/.
+==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local/.
+==> /usr/bin/sudo /bin/mkdir /Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Library/Caches/Homebrew
+==> Downloading and installing Homebrew...
+From https://github.com/Homebrew/homebrew
+ * [new branch]      master     -> origin/master
+Checking out files:   7% (281/3595)   Checking out files:   8% (288/3595)   Checking out files:   9% (324/3595)   Checking out files:  10% (360/3595)   Checking out files:  10% (391/3595)   Checking out files:  11% (396/3595)   Checking out files:  12% (432/3595)   Checking out files:  13% (468/3595)   Checking out files:  14% (504/3595)   Checking out files:  14% (505/3595)   Checking out files:  15% (540/3595)   Checking out files:  16% (576/3595)   Checking out files:  17% (612/3595)   Checking out files:  17% (622/3595)   Checking out files:  18% (648/3595)   Checking out files:  19% (684/3595)   Checking out files:  20% (719/3595)   Checking out files:  20% (736/3595)   Checking out files:  21% (755/3595)   Checking out files:  22% (791/3595)   Checking out files:  23% (827/3595)   Checking out files:  23% (854/3595)   Checking out files:  24% (863/3595)   Checking out files:  25% (899/3595)   Checking out files:  26% (935/3595)   Checking out files:  27% (971/3595)   Checking out files:  27% (984/3595)   Checking out files:  28% (1007/3595)   Checking out files:  29% (1043/3595)   Checking out files:  30% (1079/3595)   Checking out files:  30% (1112/3595)   Checking out files:  31% (1115/3595)   Checking out files:  32% (1151/3595)   Checking out files:  33% (1187/3595)   Checking out files:  34% (1223/3595)   Checking out files:  34% (1249/3595)   Checking out files:  35% (1259/3595)   Checking out files:  36% (1295/3595)   Checking out files:  37% (1331/3595)   Checking out files:  38% (1367/3595)   Checking out files:  38% (1392/3595)   Checking out files:  39% (1403/3595)   Checking out files:  40% (1438/3595)   Checking out files:  41% (1474/3595)   Checking out files:  42% (1510/3595)   Checking out files:  42% (1522/3595)   Checking out files:  43% (1546/3595)   Checking out files:  44% (1582/3595)   Checking out files:  45% (1618/3595)   Checking out files:  46% (1654/3595)   Checking out files:  46% (1663/3595)   Checking out files:  47% (1690/3595)   Checking out files:  48% (1726/3595)   Checking out files:  49% (1762/3595)   Checking out files:  50% (1798/3595)   Checking out files:  50% (1808/3595)   Checking out files:  51% (1834/3595)   Checking out files:  52% (1870/3595)   Checking out files:  53% (1906/3595)   Checking out files:  53% (1940/3595)   Checking out files:  54% (1942/3595)   Checking out files:  55% (1978/3595)   Checking out files:  56% (2014/3595)   Checking out files:  57% (2050/3595)   Checking out files:  58% (2086/3595)   Checking out files:  58% (2090/3595)   Checking out files:  59% (2122/3595)   Checking out files:  60% (2157/3595)   Checking out files:  61% (2193/3595)   Checking out files:  62% (2229/3595)   Checking out files:  62% (2261/3595)   Checking out files:  63% (2265/3595)   Checking out files:  64% (2301/3595)   Checking out files:  65% (2337/3595)   Checking out files:  66% (2373/3595)   Checking out files:  66% (2392/3595)   Checking out files:  67% (2409/3595)   Checking out files:  68% (2445/3595)   Checking out files:  69% (2481/3595)   Checking out files:  70% (2517/3595)   Checking out files:  70% (2534/3595)   Checking out files:  71% (2553/3595)   Checking out files:  72% (2589/3595)   Checking out files:  73% (2625/3595)   Checking out files:  74% (2661/3595)   Checking out files:  74% (2690/3595)   Checking out files:  75% (2697/3595)   Checking out files:  76% (2733/3595)   Checking out files:  77% (2769/3595)   Checking out files:  78% (2805/3595)   Checking out files:  78% (2827/3595)   Checking out files:  79% (2841/3595)   Checking out files:  80% (2876/3595)   Checking out files:  81% (2912/3595)   Checking out files:  82% (2948/3595)   Checking out files:  82% (2966/3595)   Checking out files:  83% (2984/3595)   Checking out files:  84% (3020/3595)   Checking out files:  85% (3056/3595)   Checking out files:  86% (3092/3595)   Checking out files:  86% (3112/3595)   Checking out files:  87% (3128/3595)   Checking out files:  88% (3164/3595)   Checking out files:  89% (3200/3595)   Checking out files:  90% (3236/3595)   Checking out files:  90% (3240/3595)   Checking out files:  91% (3272/3595)   Checking out files:  92% (3308/3595)   Checking out files:  93% (3344/3595)   Checking out files:  94% (3380/3595)   Checking out files:  95% (3416/3595)   Checking out files:  95% (3420/3595)   Checking out files:  96% (3452/3595)   Checking out files:  97% (3488/3595)   Checking out files:  98% (3524/3595)   Checking out files:  99% (3560/3595)   Checking out files: 100% (3595/3595)   Checking out files: 100% (3595/3595), done.
+HEAD is now at a70c85d proguard: install proguardgui
+==> Installation successful!
+==> Next steps
+Run `brew help` to get started
+
+Updating Homebrew formulas ...
+Already up-to-date.
+
+Installing zsh ...
+==> Installing dependencies for zsh: gdbm, pcre
+==> Installing zsh dependency: gdbm
+==> Downloading https://homebrew.bintray.com/bottles/gdbm-1.11.yosemite.bottle.2.tar.gz
+==> Pouring gdbm-1.11.yosemite.bottle.2.tar.gz
+🍺  /usr/local/Cellar/gdbm/1.11: 17 files, 532K
+==> Installing zsh dependency: pcre
+==> Downloading https://homebrew.bintray.com/bottles/pcre-8.37.yosemite.bottle.tar.gz
+==> Pouring pcre-8.37.yosemite.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre/8.37: 146 files, 5.9M
+==> Installing zsh
+==> Downloading https://homebrew.bintray.com/bottles/zsh-5.0.8.yosemite.bottle.tar.gz
+==> Pouring zsh-5.0.8.yosemite.bottle.tar.gz
+==> Caveats
+Add the following to your zshrc to access the online help:
+  unalias run-help
+  autoload run-help
+  HELPDIR=/usr/local/share/zsh/help
+==> Summary
+🍺  /usr/local/Cellar/zsh/5.0.8: 1113 files, 11M
+
+Installing git ...
+==> Downloading https://homebrew.bintray.com/bottles/git-2.4.3.yosemite.bottle.1.tar.gz
+==> Pouring git-2.4.3.yosemite.bottle.1.tar.gz
+==> Caveats
+The OS X keychain credential helper has been installed to:
+  /usr/local/bin/git-credential-osxkeychain
+
+The "contrib" directory has been installed to:
+  /usr/local/share/git-core/contrib
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completion has been installed to:
+  /usr/local/share/zsh/site-functions
+==> Summary
+🍺  /usr/local/Cellar/git/2.4.3: 1372 files, 32M
+
+Installing postgres ...
+==> Installing dependencies for postgresql: openssl, readline
+==> Installing postgresql dependency: openssl
+==> Downloading https://homebrew.bintray.com/bottles/openssl-1.0.2a-1.yosemite.bottle.1.tar.gz
+==> Pouring openssl-1.0.2a-1.yosemite.bottle.1.tar.gz
+==> Caveats
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl/certs
+
+and run
+  /usr/local/opt/openssl/bin/c_rehash
+
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Mac OS X already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/openssl/lib
+    CPPFLAGS: -I/usr/local/opt/openssl/include
+
+==> Summary
+🍺  /usr/local/Cellar/openssl/1.0.2a-1: 463 files, 18M
+==> Installing postgresql dependency: readline
+==> Downloading https://homebrew.bintray.com/bottles/readline-6.3.8.yosemite.bottle.tar.gz
+==> Pouring readline-6.3.8.yosemite.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Mac OS X provides similar software, and installing this software in
+parallel can cause all kinds of trouble.
+
+OS X provides the BSD libedit library, which shadows libreadline.
+In order to prevent conflicts when programs look for libreadline we are
+defaulting this GNU Readline installation to keg-only.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/readline/lib
+    CPPFLAGS: -I/usr/local/opt/readline/include
+
+==> Summary
+🍺  /usr/local/Cellar/readline/6.3.8: 40 files, 2.1M
+==> Installing postgresql
+==> Downloading https://homebrew.bintray.com/bottles/postgresql-9.4.3.yosemite.bottle.tar.gz
+==> Pouring postgresql-9.4.3.yosemite.bottle.tar.gz
+==> Caveats
+If builds of PostgreSQL 9 are failing and you have version 8.x installed,
+you may need to remove the previous version first. See:
+  https://github.com/Homebrew/homebrew/issues/2510
+
+To migrate existing data from a previous major version (pre-9.4) of PostgreSQL, see:
+  https://www.postgresql.org/docs/9.4/static/upgrading.html
+
+To have launchd start postgresql at login:
+    ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+Then to load postgresql now:
+    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+Or, if you don't want/need launchctl, you can just run:
+    postgres -D /usr/local/var/postgres
+==> /usr/local/Cellar/postgresql/9.4.3/bin/initdb /usr/local/var/postgres
+==> Summary
+🍺  /usr/local/Cellar/postgresql/9.4.3: 3009 files, 40M
+
+Restarting postgresql ...
+/Users/logeshpaul/Library/LaunchAgents/homebrew.mxcl.postgresql.plist -> /usr/local/opt/postgresql/homebrew.mxcl.postgresql.plist
+
+Installing redis ...
+==> Downloading https://homebrew.bintray.com/bottles/redis-3.0.2.yosemite.bottle.tar.gz
+==> Pouring redis-3.0.2.yosemite.bottle.tar.gz
+==> Caveats
+To have launchd start redis at login:
+    ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
+Then to load redis now:
+    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+Or, if you don't want/need launchctl, you can just run:
+    redis-server /usr/local/etc/redis.conf
+==> Summary
+🍺  /usr/local/Cellar/redis/3.0.2: 9 files, 892K
+
+Restarting redis ...
+/Users/logeshpaul/Library/LaunchAgents/homebrew.mxcl.redis.plist -> /usr/local/opt/redis/homebrew.mxcl.redis.plist
+
+Installing the_silver_searcher ...
+==> Installing the_silver_searcher dependency: xz
+==> Downloading https://homebrew.bintray.com/bottles/xz-5.2.1.yosemite.bottle.tar.gz
+==> Pouring xz-5.2.1.yosemite.bottle.tar.gz
+🍺  /usr/local/Cellar/xz/5.2.1: 59 files, 1.7M
+==> Installing the_silver_searcher
+==> Downloading https://homebrew.bintray.com/bottles/the_silver_searcher-0.30.0.yosemite.bottle.tar.gz
+==> Pouring the_silver_searcher-0.30.0.yosemite.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/the_silver_searcher/0.30.0: 8 files, 116K
+
+Installing vim ...
+==> Downloading https://mirrors.kernel.org/debian/pool/main/v/vim/vim_7.4.712.orig.tar.gz
+==> ./configure --prefix=/usr/local --mandir=/usr/local/Cellar/vim/7.4.712/share/man --enable-multibyte --with-tlib=ncurses --enable-cscope --with-features=huge --with-compiledby=Homebrew     --enable-perlinterp --enable-pythoninterp --enable-rubyinterp --enable-gui=no --without-x
+==> make
+==> make install prefix=/usr/local/Cellar/vim/7.4.712 STRIP=true
+🍺  /usr/local/Cellar/vim/7.4.712: 1606 files, 26M, built in 68 seconds
+
+Installing ctags ...
+==> Downloading https://homebrew.bintray.com/bottles/ctags-5.8_1.yosemite.bottle.tar.gz
+==> Pouring ctags-5.8_1.yosemite.bottle.tar.gz
+==> Caveats
+Under some circumstances, emacs and ctags can conflict. By default,
+emacs provides an executable `ctags` that would conflict with the
+executable of the same name that ctags provides. To prevent this,
+Homebrew removes the emacs `ctags` and its manpage before linking.
+
+However, if you install emacs with the `--keep-ctags` option, then
+the `ctags` emacs provides will not be removed. In that case, you
+won't be able to install ctags successfully. It will build but not
+link.
+==> Summary
+🍺  /usr/local/Cellar/ctags/5.8_1: 8 files, 364K
+
+Installing tmux ...
+==> Installing tmux dependency: libevent
+==> Downloading https://homebrew.bintray.com/bottles/libevent-2.0.22.yosemite.bottle.tar.gz
+==> Pouring libevent-2.0.22.yosemite.bottle.tar.gz
+🍺  /usr/local/Cellar/libevent/2.0.22: 48 files, 1.8M
+==> Installing tmux
+==> Downloading https://homebrew.bintray.com/bottles/tmux-2.0.yosemite.bottle.1.tar.gz
+==> Pouring tmux-2.0.yosemite.bottle.1.tar.gz
+==> Caveats
+Example configurations have been installed to:
+  /usr/local/Cellar/tmux/2.0/share/tmux/examples
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/tmux/2.0: 16 files, 656K
+
+Installing reattach-to-user-namespace ...
+==> Downloading https://homebrew.bintray.com/bottles/reattach-to-user-namespace-2.3.yosemite.bottle.tar.gz
+==> Pouring reattach-to-user-namespace-2.3.yosemite.bottle.tar.gz
+🍺  /usr/local/Cellar/reattach-to-user-namespace/2.3: 6 files, 48K
+
+Installing imagemagick ...
+==> Installing dependencies for imagemagick: libtool, jpeg, libpng, libtiff, freetype
+==> Installing imagemagick dependency: libtool
+==> Downloading https://homebrew.bintray.com/bottles/libtool-2.4.6.yosemite.bottle.tar.gz
+==> Pouring libtool-2.4.6.yosemite.bottle.tar.gz
+==> Caveats
+In order to prevent conflicts with Apple's own libtool we have prepended a "g"
+so, you have instead: glibtool and glibtoolize.
+==> Summary
+🍺  /usr/local/Cellar/libtool/2.4.6: 69 files, 3.8M
+==> Installing imagemagick dependency: jpeg
+==> Downloading https://homebrew.bintray.com/bottles/jpeg-8d.yosemite.bottle.2.tar.gz
+==> Pouring jpeg-8d.yosemite.bottle.2.tar.gz
+🍺  /usr/local/Cellar/jpeg/8d: 18 files, 776K
+==> Installing imagemagick dependency: libpng
+==> Downloading https://homebrew.bintray.com/bottles/libpng-1.6.17.yosemite.bottle.tar.gz
+==> Pouring libpng-1.6.17.yosemite.bottle.tar.gz
+🍺  /usr/local/Cellar/libpng/1.6.17: 17 files, 1.2M
+==> Installing imagemagick dependency: libtiff
+==> Downloading https://homebrew.bintray.com/bottles/libtiff-4.0.3.yosemite.bottle.tar.gz
+==> Pouring libtiff-4.0.3.yosemite.bottle.tar.gz
+🍺  /usr/local/Cellar/libtiff/4.0.3: 254 files, 3.8M
+==> Installing imagemagick dependency: freetype
+==> Downloading https://homebrew.bintray.com/bottles/freetype-2.5.5.yosemite.bottle.tar.gz
+==> Pouring freetype-2.5.5.yosemite.bottle.tar.gz
+🍺  /usr/local/Cellar/freetype/2.5.5: 60 files, 2.6M
+==> Installing imagemagick
+==> Downloading https://homebrew.bintray.com/bottles/imagemagick-6.9.1-4.yosemite.bottle.tar.gz
+==> Pouring imagemagick-6.9.1-4.yosemite.bottle.tar.gz
+🍺  /usr/local/Cellar/imagemagick/6.9.1-4: 1447 files, 21M
+
+Installing qt ...
+==> Downloading https://homebrew.bintray.com/bottles/qt-4.8.7.yosemite.bottle.tar.gz
+==> Pouring qt-4.8.7.yosemite.bottle.tar.gz
+==> Caveats
+We agreed to the Qt opensource license for you.
+If this is unacceptable you should uninstall.
+
+.app bundles were installed.
+Run `brew linkapps qt` to symlink these to /Applications.
+==> Summary
+🍺  /usr/local/Cellar/qt/4.8.7: 2794 files, 122M
+
+Installing hub ...
+==> Downloading https://homebrew.bintray.com/bottles/hub-2.2.1.yosemite.bottle.tar.gz
+==> Pouring hub-2.2.1.yosemite.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completion has been installed to:
+  /usr/local/share/zsh/site-functions
+==> Summary
+🍺  /usr/local/Cellar/hub/2.2.1: 9 files, 9.6M
+
+Installing node ...
+==> Downloading https://homebrew.bintray.com/bottles/node-0.12.4.yosemite.bottle.tar.gz
+==> Pouring node-0.12.4.yosemite.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/node/0.12.4: 2590 files, 28M
+
+Installing rbenv ...
+==> Downloading https://github.com/sstephenson/rbenv/archive/v0.4.0.tar.gz
+==> Caveats
+To use Homebrew's directories rather than ~/.rbenv add to your profile:
+  export RBENV_ROOT=/usr/local/var/rbenv
+
+To enable shims and autocompletion add to your profile:
+  if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+==> Summary
+🍺  /usr/local/Cellar/rbenv/0.4.0: 31 files, 152K, built in 5 seconds
+
+Installing ruby-build ...
+==> Installing dependencies for ruby-build: autoconf, pkg-config
+==> Installing ruby-build dependency: autoconf
+==> Downloading https://homebrew.bintray.com/bottles/autoconf-2.69.yosemite.bottle.1.tar.gz
+==> Pouring autoconf-2.69.yosemite.bottle.1.tar.gz
+🍺  /usr/local/Cellar/autoconf/2.69: 70 files, 3.1M
+==> Installing ruby-build dependency: pkg-config
+==> Downloading https://homebrew.bintray.com/bottles/pkg-config-0.28.yosemite.bottle.2.tar.gz
+==> Pouring pkg-config-0.28.yosemite.bottle.2.tar.gz
+🍺  /usr/local/Cellar/pkg-config/0.28: 10 files, 612K
+==> Installing ruby-build
+==> Downloading https://github.com/sstephenson/ruby-build/archive/v20150519.tar.gz
+==> ./install.sh
+🍺  /usr/local/Cellar/ruby-build/20150519: 162 files, 688K, built in 4 seconds
+
+Already using the latest version of openssl. Skipping ...
+Unlinking /usr/local/Cellar/openssl/1.0.2a-1... 0 symlinks removed
+Linking /usr/local/Cellar/openssl/1.0.2a-1... 1543 symlinks created
+
+Installing libyaml ...
+==> Downloading https://homebrew.bintray.com/bottles/libyaml-0.1.6_1.yosemite.bottle.tar.gz
+==> Pouring libyaml-0.1.6_1.yosemite.bottle.tar.gz
+🍺  /usr/local/Cellar/libyaml/0.1.6_1: 7 files, 352K
+Downloading ruby-2.2.2.tar.gz...
+-> http://dqw8nmjcqpjn7.cloudfront.net/5ffc0f317e429e6b29d4a98ac521c3ce65481bfd22a8cf845fa02a7b113d9b44
+Installing ruby-2.2.2...
+Installed ruby-2.2.2 to /Users/logeshpaul/.rbenv/versions/2.2.2
+
+/Users/logeshpaul/.rbenv/versions/2.2.2/lib/ruby/2.2.0/rubygems/commands/update_command.rb:163: warning: Insecure world writable dir /usr/local/bin in PATH, mode 040777
+Updating rubygems-update
+Successfully installed rubygems-update-2.4.8
+Parsing documentation for rubygems-update-2.4.8
+Installing ri documentation for rubygems-update-2.4.8
+Installing darkfish documentation for rubygems-update-2.4.8
+Done installing documentation for rubygems-update after 1 seconds
+Parsing documentation for rubygems-update-2.4.8
+Done installing documentation for rubygems-update after 0 seconds
+Installing RubyGems 2.4.8
+setup.rb:26: warning: Insecure world writable dir /usr/local/bin in PATH, mode 040777
+RubyGems 2.4.8 installed
+Parsing documentation for rubygems-2.4.8
+Installing ri documentation for rubygems-2.4.8
+
+=== 2.4.8 / 2015-06-08
+
+Bug fixes:
+
+* Tightened API endpoint checks for CVE-2015-3900
+
+=== 2.4.7 / 2015-05-14
+
+Bug fixes:
+
+* Backport: Limit API endpoint to original security domain for CVE-2015-3900.
+  Fix by claudijd
+
+=== 2.4.6 / 2014-02-05
+
+Bug fixes:
+
+* Fixed resolving gems with both upper and lower requirement boundaries.
+  Issue #1141 by Jakub Jirutka.
+* Moved extension directory after require_paths to fix missing constant bugs
+  in some gems with C extensions.  Issue #784 by André Arko, pull request
+  #1137 by Barry Allard.
+* Use Gem::Dependency#requirement when adding a dependency to an existing
+  dependency instance.  Pull request #1101 by Josh Cheek.
+* Fixed warning of shadowed local variable in Gem::Specification.  Pull request
+  #1109 by Rohit Arondekar
+* Gem::Requirement should always sort requirements before coercion to Hash.
+  Pull request #1139 by Eito Katagiri.
+* The `gem open` command should change the current working directory before
+  opening the editor.  Pull request #1142 by Alex Wood.
+* Ensure quotes are stripped from the Windows launcher script used to install
+  gems.  Pull request #1115 by Youngjun Song.
+* Fixed errors when writing to NFS to to 0444 files.  Issue #1161 by Emmanuel
+  Hadoux.
+* Removed dead code in Gem::StreamUI.  Pull request #1117 by mediaslave24.
+* Fixed typos.  Pull request #1096 by hakeda.
+* Relaxed CMake dependency for RHEL 6 and CentOS 6.  Pull request #1124 by Vít
+  Ondruch.
+* Relaxed Psych dependency.  Pull request #1128 by Vít Ondruch.
+
+=== 2.4.5 / 2014-12-03
+
+Bug fixes:
+
+* Improved speed of requiring gems.  (Around 25% for a 60 gem test).  Pull
+  request #1060 by unak.
+* RubyGems no longer attempts to look up gems remotely with the --local flag.
+  Pull request #1084 by Jeremy Evans.
+* Executable stubs use the correct gem version when RUBYGEMS_GEMDEPS is
+  active.  Issue #1072 by Michael Kaiser-Nyman.
+* Fixed handling of pinned gems in lockfiles with versions.  Issue #1078 by
+  Ian Ker-Seymer.
+* Fixed handling of git@example:gem.git URIs.  Issue #1054 by Mogutan Mogu.
+* Fixed handling of platforms retrieved from the dependencies API.  Issue
+  #1058 and patch suggestion by tux-mind.
+* RubyGems now suggests a copy-pasteable `gem pristine` command when
+  extensions are missing.  Pull request #1057 by Shannon Skipper.
+* Improved errors for long file names when packaging.  Pull request #1016 by
+  Piotrek Bator.
+* `gem pristine` now skips gems cannot be found remotely.  Pull request #1064
+  by Tuomas Kareinen.
+* `gem pristine` now caches gems to the proper directory.  Pull request #1064
+  by Tuomas Kareinen.
+* `gem pristine` now skips bundled gems properly.  Pull request #1064 by
+  Tuomas Kareinen.
+* Improved interoperability of Vagrant with RubyGems.  Pull request #1057 by
+  Vít Ondruch.
+* Renamed CONTRIBUTING to CONTRIBUTING.rdoc to allow markup.  Pull request
+  #1090 by Roberto Miranda.
+* Switched from #partition to #reject as only one collection is used.  Pull
+  request #1074 by Tuomas Kareinen.
+* Fixed installation of gems on systems using memory-mapped files.  Pull
+  request #1038 by Justin Li.
+* Fixed bug in Gem::Text#min3 where `a == b < c`.  Pull request #1026 by
+  fortissimo1997.
+* Fixed uninitialized variable warning in BasicSpecification.  Pull request
+  #1019 by Piotr Szotkowski.
+* Removed unneeded exception handling for cyclic dependencies.  Pull request
+  #1043 by Jens Wille.
+* Fixed grouped expression warning.  Pull request #1081 by André Arko.
+* Fixed handling of platforms when writing lockfiles.
+
+
+------------------------------------------------------------------------------
+
+RubyGems installed the following executables:
+	/Users/logeshpaul/.rbenv/versions/2.2.2/bin/gem
+
+Ruby Interactive (ri) documentation was installed. ri is kind of like man 
+pages for ruby libraries. You may access it like this:
+  ri Classname
+  ri Classname.class_method
+  ri Classname#instance_method
+If you do not wish to install this documentation in the future, use the
+--no-document flag, or set it as the default in your ~/.gemrc file. See
+'gem help env' for details.
+
+RubyGems system software updated
+
+Installing bundler ...
+Successfully installed bundler-1.10.3
+Parsing documentation for bundler-1.10.3
+Installing ri documentation for bundler-1.10.3
+Done installing documentation for bundler after 7 seconds
+1 gem installed
+
+Configuring Bundler ...
+
+Installing heroku-toolbelt ...
+==> Downloading https://s3.amazonaws.com/assets.heroku.com/heroku-client/heroku-client-3.37.1.tgz
+🍺  /usr/local/Cellar/heroku-toolbelt/3.37.1: 822 files, 7.4M, built in 16 seconds
+==> Tapping thoughtbot/formulae
+Tapped 6 formulae (40 files, 164K)
+
+Installing rcm ...
+==> Installing rcm from thoughtbot/homebrew-formulae
+==> Downloading http://thoughtbot.github.io/rcm/dist/rcm-1.2.3.tar.gz
+==> ./configure --prefix=/usr/local/Cellar/rcm/1.2.3
+==> make install
+🍺  /usr/local/Cellar/rcm/1.2.3: 15 files, 76K, built in 4 seconds
